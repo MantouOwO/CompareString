@@ -17,12 +17,12 @@ int main(){
 	char source[LEN];
 	char search[LEN];
 	
-	cout << "¿é¤JA¦r¦ê:";
+	cout << "input source:";
 	cin >> source;
-	cout << "¿é¤JB¦r¦ê:";
+	cout << "input search:";
 	cin >> search;
 	
-	int search_size = strlen(search);/*¦r¦êªø«×*/
+	int search_size = strlen(search);
 	int source_size = strlen(source);
 	
 	for(int i=0;i<search_size;i++){
