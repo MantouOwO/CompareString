@@ -1,9 +1,9 @@
 # CompareString
- ex:
-source:ABCD
-search:ACB
-return true
+example:
+	source:ABCD
+	search:ACB
+	return true
 
-source:ABCD
-search:AABC
-return false
+	source:ABCD
+	search:AABC
+	return false
