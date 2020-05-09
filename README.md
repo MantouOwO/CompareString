@@ -1,5 +1,5 @@
 # CompareString
-example:
+	example:
 	source:ABCD
 	search:ACB
 	return true
